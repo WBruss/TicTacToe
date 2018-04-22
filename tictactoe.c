@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-// void gameX( int selection );
-// void gameO( int selection );
+
 void gridfill();
 void grid();
 
@@ -148,112 +147,5 @@ void grid(){
     board[0][0],board[0][1],board[0][2],board[1][0],board[1][1],board[1][2],board[2][0],board[2][1],board[2][2]);
 }
 
-// void gridfill2(){
-//     switch( choice ){
-//         case 1:
-//         board[0][0] = o;
-//         break;
-//         case 2:
-//         board[0][1] = o;
-//         break;
-//         case 3:
-//         board[0][2] = o;
-//         break;
-//         case 4:
-//         board[1][0] = o;
-//         break;
-//         case 5:
-//         board[1][1] = o;
-//         break;
-//         case 6:
-//         board[1][2] = o;
-//         break;  
-//         case 7:
-//         board[2][0] = o; 
-//         break;
-//         case 8:
-//         board[2][1] = o;
-//         break;
-//         case 9:
-//         board[2][2] = o;
-//         default:
-//         puts("Invalid choice");
-//         ctr++;
-//         player = 1;
-//         break;
-//     }
-// }
 
-// void gameX( int selection ){
-//     char x = 'X';
-//     char o = 'O'; 
-//     char board[3][3];
 
-//     switch( selection ){
-//         case 1:
-//         board[0][0] = 'X';
-//         break;
-//         case 2:
-//         board[0][1] = x;
-//         break;
-//         case 3:
-//         board[0][2] = x;
-//         break;
-//         case 4:
-//         board[1][0] = x;
-//         break;
-//         case 5:
-//         board[1][1] = x;
-//         break;
-//         case 6:
-//         board[1][2] = x;
-//         break;  
-//         case 7:
-//         board[2][0] = x; 
-//         break;
-//         case 8:
-//         board[2][1] = x;
-//         break;
-//         case 9:
-//         board[2][2] = x;
-//         default:
-//         puts("Invalid choice");
-//     }
-// } 
-
-// void gameO( int selection ){
-    
-//     char o = 'O';
-//     char board[3][3];
-
-//     switch( selection ){
-//         case 1:
-//         board[0][0] = o;
-//         break;
-//         case 2:
-//         board[0][1] = o;
-//         break;
-//         case 3:
-//         board[0][2] = o;
-//         break;
-//         case 4:
-//         board[1][0] = o;
-//         break;
-//         case 5:
-//         board[1][1] = o;
-//         break;
-//         case 6:
-//         board[1][2] = o;
-//         break;  
-//         case 7:
-//         board[2][0] = o; 
-//         break;
-//         case 8:
-//         board[2][1] = o;
-//         break;
-//         case 9:
-//         board[2][2] = o;
-//         default:
-//         puts("Invalid choice");
-//     }
-// } 
