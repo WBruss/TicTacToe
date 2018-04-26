@@ -24,8 +24,8 @@ int main(){
     printf("This is a two player game. Played on a three by three grid.\n");
     printf("One player plays with the character 'X' and the other with the character 'O'.\n");
     printf("The goal of the game is to have a set of three characters in a continuous straight, vertically, horizontally or diagonally.\n");
-    printf("Player 1 starts the game. the game play is alternate, one player lays after the other.\n");
-    printf("The game ends if one player wins or when all the cells are filled. Of no player wins the game ends at draw.\n");
+    printf("Player 1 starts the game. the game play is alternate, one player plays after the other.\n");
+    printf("The game ends if one player wins or when all the cells are filled. If no player wins the game ends at draw.\n");
 
     printf("Player 1 is X\nPlayer 2 is O\n\n");
 
