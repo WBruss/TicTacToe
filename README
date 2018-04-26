@@ -1,4 +1,8 @@
 This is the TicTacToe README
 Play the TicTacToe.
-
+This is a two player game. Played on a three by three grid.
+One player plays with the character 'X' and the other with the character 'O'.
+The goal of the game is to have a set of three characters in a continuous straight, vertically, horizontally or diagonally.
+Player 1 starts the game. the game play is alternate, one player lays after the other.
+The game ends if one player wins or when all the cells are filled. If no player wins the game ends at draw.
 
